@@ -28,7 +28,7 @@
     "actual_outcome": "Consolidated; 0 drift",
     "learning_extracted": "Split IdP causes access drift",
     "rule_version": "IT-RULE-002",
-    "last_reviewed": "2026-08-18"
+    "last_reviewed": "2026-08-19"
   },
   "learning_ledger": {
     "case": "Two identity providers causing drift",
