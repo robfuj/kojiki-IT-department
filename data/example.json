@@ -1,0 +1,46 @@
+{
+  "decision_object": {
+    "decision_id": "IT-2026-012",
+    "decision_name": "Consolidate two IdP instances",
+    "owning_function": "IT",
+    "decision_owner_role": "IT Operations Engineer",
+    "trigger_condition": "Two identity providers; access drift; audit finding",
+    "current_state": "Split IdP; inconsistent access",
+    "required_inputs": [
+      "app inventory",
+      "access matrix",
+      "migration risk"
+    ],
+    "evidence_threshold": "Zero access-denied incidents post-cutover",
+    "available_options": [
+      "Consolidate to A",
+      "Consolidate to B",
+      "Keep split",
+      "Federate"
+    ],
+    "decision_criteria": "Single source of truth for access",
+    "constraints": "No downtime window > 4h",
+    "risk_level": "medium",
+    "delegation_level": "Own",
+    "escalation_conditions": "Critical app not supported by target IdP",
+    "expected_outcome": "One IdP, clean access",
+    "verification_method": "30-day access audit",
+    "actual_outcome": "Consolidated; 0 drift",
+    "learning_extracted": "Split IdP causes access drift",
+    "rule_version": "IT-RULE-002",
+    "last_reviewed": "2026-08-18"
+  },
+  "learning_ledger": {
+    "case": "Two identity providers causing drift",
+    "decision": "Consolidate to single IdP",
+    "assumption": "All apps supported by target",
+    "action": "Migrate apps; 30-day audit",
+    "expected_result": "Zero access-denied incidents",
+    "actual_result": "0 drift post-cutover",
+    "variance": "Confirmed simplification",
+    "cause": "Single source of truth removes drift",
+    "learning": "Single IdP reduces access risk",
+    "rule_update": "Standardize on one IdP; federate only when required"
+  },
+  "orientation_required": true
+}

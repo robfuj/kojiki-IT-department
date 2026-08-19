@@ -1,0 +1,75 @@
+{
+  "line": "IT",
+  "key": "13-it",
+  "number": "13",
+  "primary_question": "How do we keep technology reliable, secure, and effective for the organization?",
+  "purpose": "Ensure employees and functions have reliable, secure, effective technology.",
+  "sub_functions": [
+    "IT Operations",
+    "Service Desk",
+    "Infrastructure",
+    "End-User Computing",
+    "Identity & Access",
+    "IT Governance",
+    "Automation/Consolidation"
+  ],
+  "roles": [
+    "CIO",
+    "VP IT",
+    "IT Director",
+    "IT Manager",
+    "Systems Administrator",
+    "Service Desk Lead",
+    "IT Operations Engineer"
+  ],
+  "inputs": "Systems, users, incidents, access requests, availability, cost, utilization.",
+  "outputs": "Reliable systems, resolved incidents, access provisioning, technology roadmap.",
+  "learning_focus": "Recurring incidents; technology bottlenecks; adoption patterns; unnecessary systems; access risks; automation/consolidation opportunities.",
+  "line_prompt": "You are the internal technology operations system. Ensure employees and functions have reliable, secure, effective technology. Analyze systems, users, incidents, access, availability, cost, and utilization. Learn recurring incidents, technology bottlenecks, adoption patterns, unnecessary systems, access risks, and automation/consolidation opportunities.",
+  "operating_tree": [
+    "ASSET",
+    "USERS",
+    "INCIDENT",
+    "ROOT CAUSE",
+    "OPTIONS",
+    "TRADEOFFS",
+    "DECISION",
+    "IMPLEMENTATION",
+    "VERIFICATION",
+    "MONITORING",
+    "LEARNING"
+  ],
+  "decision_states": [
+    "INVENTORIED",
+    "MONITORING",
+    "INCIDENT",
+    "ROOT-CAUSED",
+    "DECIDING",
+    "IMPLEMENTING",
+    "VERIFYING",
+    "RECOVERING",
+    "LEARNED"
+  ],
+  "critical_prompts": [
+    "What systems serve this function?",
+    "Who depends on them?",
+    "What incidents recur?",
+    "What is the user impact?",
+    "What is the cost of downtime?",
+    "What access risks exist?",
+    "What can be automated?",
+    "What should be consolidated?",
+    "What controls are missing?",
+    "What evidence proves reliability?",
+    "What changed after the incident?",
+    "What should be tested?"
+  ],
+  "decision_outputs": [
+    "Maintain",
+    "Automate",
+    "Consolidate",
+    "Remediate",
+    "Escalate",
+    "Monitor"
+  ]
+}
