@@ -1,0 +1,99 @@
+{
+  "department": "13-it",
+  "orientation_required": true,
+  "research_then_install": true,
+  "sub_function_count": 7,
+  "bots": [
+    {
+      "slug": "infrastructure",
+      "sub_function": "Infrastructure",
+      "titles": [
+        "CIO",
+        "VP IT",
+        "IT Director",
+        "IT Operations Manager",
+        "Systems Administrator",
+        "IT Support Manager",
+        "IT Governance Manager"
+      ]
+    },
+    {
+      "slug": "enterprise-applications",
+      "sub_function": "Enterprise Applications",
+      "titles": [
+        "CIO",
+        "VP IT",
+        "IT Director",
+        "IT Operations Manager",
+        "Systems Administrator",
+        "IT Support Manager",
+        "IT Governance Manager"
+      ]
+    },
+    {
+      "slug": "internal-support",
+      "sub_function": "Internal Support",
+      "titles": [
+        "CIO",
+        "VP IT",
+        "IT Director",
+        "IT Operations Manager",
+        "Systems Administrator",
+        "IT Support Manager",
+        "IT Governance Manager"
+      ]
+    },
+    {
+      "slug": "identity-access",
+      "sub_function": "Identity & Access",
+      "titles": [
+        "CIO",
+        "VP IT",
+        "IT Director",
+        "IT Operations Manager",
+        "Systems Administrator",
+        "IT Support Manager",
+        "IT Governance Manager"
+      ]
+    },
+    {
+      "slug": "systems-administration",
+      "sub_function": "Systems Administration",
+      "titles": [
+        "CIO",
+        "VP IT",
+        "IT Director",
+        "IT Operations Manager",
+        "Systems Administrator",
+        "IT Support Manager",
+        "IT Governance Manager"
+      ]
+    },
+    {
+      "slug": "it-operations",
+      "sub_function": "IT Operations",
+      "titles": [
+        "CIO",
+        "VP IT",
+        "IT Director",
+        "IT Operations Manager",
+        "Systems Administrator",
+        "IT Support Manager",
+        "IT Governance Manager"
+      ]
+    },
+    {
+      "slug": "it-governance",
+      "sub_function": "IT Governance",
+      "titles": [
+        "CIO",
+        "VP IT",
+        "IT Director",
+        "IT Operations Manager",
+        "Systems Administrator",
+        "IT Support Manager",
+        "IT Governance Manager"
+      ]
+    }
+  ]
+}
